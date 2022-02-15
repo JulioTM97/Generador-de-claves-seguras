@@ -1,2 +1,2 @@
-# Generador-de-claves-seguras
-Esta aplicación crea claves aleatorias de una longitud especificada por el usuario y guarda estas claves en un documento de texto
+# Generador de claves seguras
+La aplicación te preguntará el nombre de la pagina web para la cual deseas crear una contraseña, entonces se buscará en el archivo de texto si ya se ha creado una contraseña para esa pagina web, en caso de que ya se haya creado una contraseña para esa pagina web se le notifica al usuario y se aborta la operacion. En caso de que no haya una contraseña creada para esa pagina web se le pide al usuario que ingrese la longitud de la contraseña que desea crear, luego la aplicacion muestra la contraseña creada al usuario y la guarda en el archivo de texto junto al nombre de la pagina web para posteriores consultas.
